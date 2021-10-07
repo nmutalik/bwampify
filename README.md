@@ -7,7 +7,7 @@
 3. Go to your extensions page (chrome://extensions/).
 4. Enable developer mode in the top right.
 5. Click "Load unpacked extension" in the top left.
-6. Load the repo you just cloned.
+6. Locate and load the repo you just cloned, making sure that `manifest.json` is at the root of the folder.
 7. Go to https://bwamp.me/sandbox/ and mash on your keyboard 
 8. Revel in your might.
 
