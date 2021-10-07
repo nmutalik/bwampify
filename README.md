@@ -27,6 +27,6 @@ Keybindings are handled by [this library](https://github.com/jaywcjlove/hotkeys/
 
 1. If an emoji that's not on bwamp.me is "linked" to, no magic happens — it just won't show up as a button. 
 2. If an emoji on bwamp is omitted from `KEY_TO_EMOJI`, the button won't show up.
-3. Similarly, if a keybinding in `KEY_TO_EMOJI` is omitted from `order`, the button won't show up.
+3. Similarly, if a keybinding in `KEY_TO_EMOJI` is omitted from `ORDER`, the button won't show up.
 
 
