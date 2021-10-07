@@ -1,13 +1,12 @@
 {
   "name": "BWAMPIFY",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
   "description": "Prepare your earholes",
   "homepage_url": "https://bwamp.me",
   "icons": {
     "128": "icons/favicon.png"
   },
-  "default_locale": "en",
   "permissions": [
     "https://bwamp.me/*"
   ],
@@ -18,7 +17,7 @@
       ],
       "js": [
         "js/hotkeys.min.js",
-        "src/inject/inject.js"
+        "src/inject.js"
       ]
     }
   ]
