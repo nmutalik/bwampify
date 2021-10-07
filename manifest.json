@@ -7,9 +7,7 @@
   "icons": {
     "128": "icons/favicon.png"
   },
-  "permissions": [
-    "https://bwamp.me/*"
-  ],
+  "permissions": [],
   "content_scripts": [
     {
       "matches": [
