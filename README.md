@@ -10,3 +10,14 @@
 6. Load the repo you just cloned.
 7. Go to https://bwamp.me/sandbox/ and mash on your keyboard 
 8. Revel in your might.
+
+### Editing
+
+If you hate the hotkeys / ordering that this ships with, you can edit it to your taste modifying `src/bwampify.js`
+
+`ORDER`, on line 1, defines the order of the buttons by keybinding.
+`KEY_TO_EMOJI`, on line 2, defines the keybinding -> emoji mapping.
+
+If an emoji is linked to that's not on bwamp, no magic happens. Similarly, if an emoji on bwamp is omitted from either `ORDER` or `KEY_TO_EMOJI`, the button won't show up.
+
+Keybindings are handled by [this library](https://github.com/jaywcjlove/hotkeys/#supported-keys), linked to the syntax on defining shortcuts.

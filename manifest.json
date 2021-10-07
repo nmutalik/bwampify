@@ -1,6 +1,6 @@
 {
   "name": "BWAMPIFY",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "manifest_version": 2,
   "description": "Prepare your earholes",
   "homepage_url": "https://bwamp.me",
@@ -15,7 +15,7 @@
       ],
       "js": [
         "js/hotkeys.min.js",
-        "src/inject.js"
+        "src/bwampify.js"
       ]
     }
   ]
