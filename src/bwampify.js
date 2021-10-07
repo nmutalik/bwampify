@@ -52,9 +52,8 @@ const processElement = element => {
 
 
 chrome.extension.sendMessage({}, function (response) {
-  var readyStateCheckInterval = setInterval(function () {
+  const readyStateCheckInterval = setInterval(function () {
     if (document.readyState === "complete") {
-      console.log("POTATO")
       clearInterval(readyStateCheckInterval);
 
 
