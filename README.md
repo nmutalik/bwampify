@@ -15,12 +15,18 @@
 
 If you hate the hotkeys / ordering that this ships with, you can edit it to your taste by modifying `src/bwampify.js`. 
 
-**After any local changes are made, go back to chrome://extensions and click the little refresh icon on the extension, otherwise your changes won't propagate.** 
+**IMPORTANT: after any local changes are made, go back to chrome://extensions and click the little refresh icon on the extension, otherwise your changes won't propagate.** 
 
-`ORDER`, on line 1, defines the order of the buttons by keybinding.
+array `ORDER` defines the order of the buttons, by keybinding.
 
-`KEY_TO_EMOJI`, on line 2, defines the keybinding -> emoji mapping.
-
-If an emoji that's not on bwamp is "linked" to, no magic happens — it just won't show up as a button. Similarly, if an emoji on bwamp is omitted from either `ORDER` or `KEY_TO_EMOJI`, the button won't show up.
+dict `KEY_TO_EMOJI` defines the keybinding -> emoji mapping.
 
 Keybindings are handled by [this library](https://github.com/jaywcjlove/hotkeys/#supported-keys), linked to the syntax on defining shortcuts.
+
+### Easy mistakes
+
+1. If an emoji that's not on bwamp.me is "linked" to, no magic happens — it just won't show up as a button. 
+2. If an emoji on bwamp is omitted from `KEY_TO_EMOJI`, the button won't show up.
+3. Similarly, if a keybinding in `KEY_TO_EMOJI` is omitted from `order`, the button won't show up.
+
+
