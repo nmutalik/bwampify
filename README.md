@@ -21,6 +21,6 @@ If you hate the hotkeys / ordering that this ships with, you can edit it to your
 
 `KEY_TO_EMOJI`, on line 2, defines the keybinding -> emoji mapping.
 
-If an emoji is linked to that's not on bwamp, no magic happens — it just won't show that button. Similarly, if an emoji on bwamp is omitted from either `ORDER` or `KEY_TO_EMOJI`, the button won't show up.
+If an emoji that's not on bwamp is "linked" to, no magic happens — it just won't show up as a button. Similarly, if an emoji on bwamp is omitted from either `ORDER` or `KEY_TO_EMOJI`, the button won't show up.
 
 Keybindings are handled by [this library](https://github.com/jaywcjlove/hotkeys/#supported-keys), linked to the syntax on defining shortcuts.
