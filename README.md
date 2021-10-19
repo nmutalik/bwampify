@@ -2,8 +2,8 @@
 
 ### Installation
 
-1. Download/clone this repository.
-2. Read through the code to make sure I'm not hacking you. Alternatively, look at the manifest.json and see that this extension has no permissions, and can't run on any website besides bwamp.me.
+1. Read through the code to make sure I'm not hacking you. Alternatively, look at the manifest.json and see that this extension has no permissions, and can't run on any website besides bwamp.me.
+2. Download/clone this repository.
 3. Go to your extensions page (chrome://extensions/).
 4. Enable developer mode in the top right.
 5. Click "Load unpacked extension" in the top left.
